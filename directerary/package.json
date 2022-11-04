@@ -1,0 +1,16 @@
+{
+  "name": "u-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test spnecified\" && exit 1",
+    "seed": "cd db && node seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
